@@ -12,7 +12,7 @@ Permettre un choix un choix du thème et des couleurs du CV
 Permettre le téléchargement du cv 
 
                         Exigences fonctionnelles :
-Saisie des informations personnelles:
+   1.Saisie des informations personnelles:
 nom
 prenom
 adresse mail
@@ -24,7 +24,7 @@ compte linkedin
 compte github
 hobbies et centres d'intérêt
 
- Saisie Informations professionnelles
+   2.Saisie Informations professionnelles
 résumé
 formation 
 experiences professionnelle
@@ -33,25 +33,25 @@ compétences
 certifications
 projets (académiques et professionnelles)
 
-Personnalisation du CV
+   3.Personnalisation du CV
 choix du thème principale
 choix des couleurs secondaires
 
-Utilisation d’un model IA fine-tune
+  4.Utilisation d’un model IA fine-tune
 fine-tuner le modèle  avec un data-set généré par une IA
 Reformuler le texte à l'aide du modele IA pour la generation du CV
 
-Génération automatique du CV
+  5.Génération automatique du CV
 produire un aperçu du CV avant de le générer
 produire un cv professionnelle bien structuré
 
 
-6.Telechargement du Cv
+  6.Telechargement du Cv
 avoir un apercu du Cv avant le telechargement 
 permettre le telchargement du cv en format PDF
 
 
-Contraintes techniques
+                                       Contraintes techniques
 Langage principal : Python
 
 
