@@ -1,7 +1,7 @@
 # projet-cv
 
-`
- Présentation du projet :
+
+                                                  Présentation du projet :
 Dans un  contexte de forte concurrence sur le marché de l’emploi et de l’alternance, la qualité et la présentation du cv jouent un rôle important. De nombreux étudiants et professionnels possèdent de nombreuses connaissances et compétences mais rencontrent des difficultés à les structurer et à les présenter de manière claire, cohérente et professionnelle. 
 l’intelligence artificielle et plus particulièrement les modèles de langage permettent aujourd'hui d’automatiser certaines tâches dont la génération et la structuration de  texte. Ce  projet s’inscrit dans cette dynamique. 
 Le modèle au cœur de l'application prend en entrée la description du profil d'une personne (incluant formation, certifications et expérience) et génère un CV. Ce processus s'accompagne d'une série de questions posées à l'utilisateur pour garantir la qualité optimale du CV produit.
@@ -11,7 +11,7 @@ Générer un CV structuré et professionnel
 Permettre un choix un choix du thème et des couleurs du CV
 Permettre le téléchargement du cv 
 
-                        Exigences fonctionnelles :
+                                                 Exigences fonctionnelles :
    1.Saisie des informations personnelles:
 nom
 prenom
@@ -51,7 +51,7 @@ avoir un apercu du Cv avant le telechargement
 permettre le telchargement du cv en format PDF
 
 
-                                       Contraintes techniques
+                                                             Contraintes techniques
 Langage principal : Python
 
 
