@@ -1,0 +1,28 @@
+{
+  "informations": {
+    "prenom": "",
+    "nom": "",
+    "titre": "",
+    "email": "",
+    "telephone": "",
+    "adresse": "",
+    "liens": []
+  },
+  "resume": "",
+  "competences": {
+    "techniques": [],
+    "outils": []
+  },
+  "experience": [
+    {
+      "entreprise": "",
+      "role": "",
+      "date_debut": "",
+      "date_fin": "",
+      "tache": []
+    }
+  ],
+  "education": [],
+  "projets": [],
+  "langues": []
+}
