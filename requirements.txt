@@ -1,7 +1,26 @@
+# Core ML / LLM
 torch
 transformers
-datasets
 peft
-trl
 accelerate
+datasets
+trl
+
+# Fine-tuning / LoRA utilities
 bitsandbytes
+
+# Export CV
+python-docx
+playwright
+weasyprint
+
+# Utils
+numpy
+pandas
+tqdm
+python-dotenv
+bitsandbytes
+
+# App & UI
+streamlit
+jinja2
