@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tu convertis des informations de candidat en CV au format JSON exactement selon le schéma ci-dessous. Réponds uniquement avec un JSON valide (aucun texte). Si une information manque: null. Si une liste est vide: []. Schéma attendu: {\"informations\":{\"prenom\":null,\"nom\":null,\"titre\":null,\"email\":null,\"telephone\":null,\"adresse\":null,\"liens\":[]},\"resume\":null,\"competences\":{\"techniques\":[],\"outils\":[]},\"experience\":[],\"education\":[],\"projets\":[],\"langues\":[]}"
+    },
+    {
+      "role": "user",
+      "content": "Nom: Patrick Yoba. Prénom: Patrick. Titre: Data Analyst. Email: patrick@email.com. Téléphone: +33 6 12 34 56 78. Adresse: Paris, France. Expérience: Data Analyst chez ABC (Paris) de 2022 à 2024. Tâches: analyse des ventes; création de dashboards; automatisation du reporting. Compétences techniques: Python, SQL. Outils: Power BI, Excel. Liens: LinkedIn https://linkedin.com/in/patrickyoba"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"informations\":{\"prenom\":\"Patrick\",\"nom\":\"Yoba\",\"titre\":\"Data Analyst\",\"email\":\"patrick@email.com\",\"telephone\":\"+33 6 12 34 56 78\",\"adresse\":\"Paris, France\",\"liens\":[\"https://linkedin.com/in/patrickyoba\"]},\"resume\":null,\"competences\":{\"techniques\":[\"Python\",\"SQL\"],\"outils\":[\"Excel\",\"Power BI\"]},\"experience\":[{\"company\":\"ABC\",\"role\":\"Data Analyst\",\"date_debut\":\"2022\",\"date_fin\":\"2024\",\"taches\":[\"Analyse des ventes.\",\"Création de dashboards.\",\"Automatisation du reporting.\"]}],\"education\":[],\"projets\":[],\"langues\":[]}"
+    }
+  ]
+}
